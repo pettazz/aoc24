@@ -20,8 +20,20 @@ fn main() {
     let lists = parse_lines();
 
     let mut total = 0;
-    for i in 0..lists.0.len() {
-        total += (lists.0[i] - lists.1[i]).abs();
+    for lidx in 0..lists.0.len() {
+        let mut rcount = 0;
+        let mut ridx = 0;
+
+        while lists.1[ridx] < lists.0[lidx] {
+            ridx += 1;
+        }
+
+        while lists.1[ridx] == lists.0[lidx] {
+            rcount += 1;
+            ridx += 1;
+        }
+
+        total += lists.0[lidx] * rcount;
     }
 
     println!("{:?}", total);
