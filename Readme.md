@@ -8,6 +8,6 @@ My personal plan for this year is first solving each one in Python, which I alre
 
 If I don't finish all 31 be sure to berate me on whatever social platform you choose.
 
-### Why are there only multiple languages for the second parts sometimes?
+### Why are there only multiple languages for one of the parts sometimes?
 
-Usually part 2 is just expanding upon part 1, so I'm not spending time translating just a subset piece of the same code thanks
+Usually part 2 is just expanding upon part 1, or some minor variation so I'm not spending time translating just a subset piece of the same code thanks, I will do whichever one is actually interesting
