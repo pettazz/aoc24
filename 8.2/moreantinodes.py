@@ -65,5 +65,3 @@ for freq, nodes in freqs.items():
   antinodes.update(find_antinodes(nodes, bounds))
 
 print(len(antinodes))
-
-# 913 too low
