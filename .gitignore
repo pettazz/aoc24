@@ -1,5 +1,6 @@
 **/aoc24bin
 **/input.txt
+**/test.txt
 .DS_Store
 target/
 cargozone/
