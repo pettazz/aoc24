@@ -1,3 +1,4 @@
+*.bak
 **/aoc24bin
 **/input.txt
 **/test.txt
