@@ -1,5 +1,6 @@
 *.bak
 **/aoc24bin
+*.o
 **/input.txt
 **/test.txt
 .DS_Store
